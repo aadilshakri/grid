@@ -1,0 +1,56 @@
+body{
+	background-color:white;
+	font-family: 'Roboto Slab', serif;
+	margin: 0px;
+}
+
+#main_section{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:250px;
+  margin-top: 50px;
+}
+
+ul{
+
+	overflow: hidden;
+	margin-top: 10px;
+		
+}
+
+li{
+	display: inline;
+
+}
+
+li a {
+
+	text-decoration: none;
+	color:#333;
+	padding-right: 10px;
+}
+
+li a:hover {
+     color: white;
+}
+
+.pass{
+	 position: fixed;
+	 background-color: lightgrey;
+	 height: 50px;
+	 
+
+}
+
+
+.foot{
+
+	background-color: lightgrey;
+	height: 50px;
+	
+}
+
